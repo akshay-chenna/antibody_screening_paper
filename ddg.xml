@@ -1,0 +1,15 @@
+<ROSETTASCRIPTS>
+	<SCOREFXNS>
+		<ScoreFunction name="ref15" weights="ref2015.wts" />
+	</SCOREFXNS>
+
+	<MOVERS>
+		<ddG name="ddg" scorefxn="ref15" jump="2" per_residue_ddg="1" translate_by="1000" repack_unbound="1" repack_bound="0" relax_unbound="0"/>
+	</MOVERS>
+
+	<PROTOCOLS>
+		<Add mover_name="ddg" />
+	</PROTOCOLS>
+
+	<OUTPUT scorefxn="REF2015" />
+</ROSETTASCRIPTS>
