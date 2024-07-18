@@ -11,7 +11,7 @@ Other applications:
 * run_cluster_identify.sh
 * cdr_analysis.ipynb
 
-## MD of apo
+## MD of apo Fv antibodies
 * md_production.sh: High temperature MD of apo antibodies starting from igfold.
 * md.mdp: MD parameters
 * correction_md.sh: Correct the generated trajectories.
@@ -23,7 +23,7 @@ Other applications:
 * 1execute_haddock.sh: Docking run and parameters.
 * relax.sh: Relax docked pose.
 
-## RAbD design
+## Paratope re-design (RAbD)
 * identify_lightchain.sh: To identify the light chain of the antibody
 * anarci_aho.py: Use ANARCI to renumber as per AHO (modified from https://github.com/Graylab/IgFold/tree/main/igfold).
 * renumber_chothia-aho.sh: Convert numbering scheme from Chothia to AHO.
